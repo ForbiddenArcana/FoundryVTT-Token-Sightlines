@@ -1,0 +1,23 @@
+{
+	"name": "token-sightlines",
+	"title": "Token Sightlines",
+	"description": "This module adds mirror X/Y buttons, and changes light/sight to emit from the right side of tokens instead of the bottom.",
+	"author": "ForbiddenArcana",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.6.6",
+	"compatibleCoreVersion": "0.7.9",
+	"scripts": [
+		"flipButtons.js",
+        "overrideTokenSources.js"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"manifest": "https://raw.githubusercontent.com/ForbiddenArcana/FoundryVTT-Token-Sightlines/master/module.json",
+	"url": "https://github.com/ForbiddenArcana/FoundryVTT-Token-Sightlines/",
+	"download": "https://github.com/ForbiddenArcana/FoundryVTT-Token-Sightlines/releases/download/v1.0/module.zip"
+}
